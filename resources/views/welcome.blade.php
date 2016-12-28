@@ -19,6 +19,8 @@
         <link rel="stylesheet" href="./css/header/index.css">
         <link rel="stylesheet" href="./css/elementos/index.css">
         <link rel="stylesheet" href="./css/footer/index.css">
+        <link rel="stylesheet" href="./css/utils/modal/index.css">
+
 
     </head>
     <body>
@@ -45,7 +47,7 @@
                             <img class="ImagenToHover" src="./images/assets/dog1-beagle.jpg" alt="">
                         </div>
                         <div class="Perritos__item--cover--modal" style="display: none;">
-                            <a href="">Cómprame ya!</a>
+                            <div class="btnOpenModal" href="">Cómprame ya!</div>
                         </div>
                     </div>
                     <div class="Perritos__item--info">
@@ -65,7 +67,7 @@
                             <img class="ImagenToHover" src="./images/assets/dog1-beagle.jpg" alt="">
                         </div>
                         <div class="Perritos__item--cover--modal" style="display: none;">
-                            <a href="">Cómprame ya!</a>
+                            <div class="btnOpenModal" href="">Cómprame ya!</div>
                         </div>
                     </div>
                     <div class="Perritos__item--info">
@@ -85,7 +87,7 @@
                             <img class="ImagenToHover" src="./images/assets/dog1-beagle.jpg" alt="">
                         </div>
                         <div class="Perritos__item--cover--modal" style="display: none;">
-                            <a href="">Cómprame ya!</a>
+                            <div class="btnOpenModal" href="">Cómprame ya!</div>
                         </div>
                     </div>
                     <div class="Perritos__item--info">
@@ -105,7 +107,7 @@
                             <img class="ImagenToHover" src="./images/assets/dog1-beagle.jpg" alt="">
                         </div>
                         <div class="Perritos__item--cover--modal" style="display: none;">
-                            <a href="">Cómprame ya!</a>
+                            <div class="btnOpenModal" href="">Cómprame ya!</div>
                         </div>
                     </div>
                     <div class="Perritos__item--info">
@@ -125,7 +127,7 @@
                             <img class="ImagenToHover" src="./images/assets/dog1-beagle.jpg" alt="">
                         </div>
                         <div class="Perritos__item--cover--modal" style="display: none;">
-                            <a href="">Cómprame ya!</a>
+                            <div class="btnOpenModal" href="">Cómprame ya!</div>
                         </div>
                     </div>
                     <div class="Perritos__item--info">
@@ -145,7 +147,7 @@
                             <img class="ImagenToHover" src="./images/assets/dog1-beagle.jpg" alt="">
                         </div>
                         <div class="Perritos__item--cover--modal" style="display: none;">
-                            <a href="">Cómprame ya!</a>
+                            <div class="btnOpenModal" href="">Cómprame ya!</div>
                         </div>
                     </div>
                     <div class="Perritos__item--info">
@@ -165,7 +167,7 @@
                             <img class="ImagenToHover" src="./images/assets/dog1-beagle.jpg" alt="">
                         </div>
                         <div class="Perritos__item--cover--modal" style="display: none;">
-                            <a href="">Cómprame ya!</a>
+                            <div class="btnOpenModal" href="">Cómprame ya!</div>
                         </div>
                     </div>
                     <div class="Perritos__item--info">
@@ -185,7 +187,7 @@
                             <img class="ImagenToHover" src="./images/assets/dog1-beagle.jpg" alt="">
                         </div>
                         <div class="Perritos__item--cover--modal" style="display: none;">
-                            <a href="">Cómprame ya!</a>
+                            <div class="btnOpenModal" href="">Cómprame ya!</div>
                         </div>
                     </div>
                     <div class="Perritos__item--info">
@@ -205,7 +207,7 @@
                             <img class="ImagenToHover" src="./images/assets/dog1-beagle.jpg" alt="">
                         </div>
                         <div class="Perritos__item--cover--modal" style="display: none;">
-                            <a href="">Cómprame ya!</a>
+                            <div class="btnOpenModal" href="">Cómprame ya!</div>
                         </div>
                     </div>
                     <div class="Perritos__item--info">
@@ -225,7 +227,7 @@
                             <img class="ImagenToHover" src="./images/assets/dog1-beagle.jpg" alt="">
                         </div>
                         <div class="Perritos__item--cover--modal" style="display: none;">
-                            <a href="">Cómprame ya!</a>
+                            <div class="btnOpenModal" href="">Cómprame ya!</div>
                         </div>
                     </div>
                     <div class="Perritos__item--info">
@@ -245,7 +247,7 @@
                             <img class="ImagenToHover" src="./images/assets/dog1-beagle.jpg" alt="">
                         </div>
                         <div class="Perritos__item--cover--modal" style="display: none;">
-                            <a href="">Cómprame ya!</a>
+                            <div class="btnOpenModal" href="">Cómprame ya!</div>
                         </div>
                     </div>
                     <div class="Perritos__item--info">
@@ -265,7 +267,7 @@
                             <img class="ImagenToHover" src="./images/assets/dog1-beagle.jpg" alt="">
                         </div>
                         <div class="Perritos__item--cover--modal" style="display: none;">
-                            <a href="">Cómprame ya!</a>
+                            <div class="btnOpenModal" href="">Cómprame ya!</div>
                         </div>
                     </div>
                     <div class="Perritos__item--info">
@@ -291,12 +293,80 @@
                 </div>
             </div>
         </footer>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <!-- The Close Button -->
+            <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+            <div id="myModalContent" class="ContentModalAbierto">
+                <div class="Cartel__box">
+                    <div class="Cartel__top">
+                        <div class="Cartel__top--logos">
+                            <div class="Cartel__top--logos__wuf">
+                                <img src="./images/modal/" alt="">
+                            </div>
+                            <div class="Cartel__top--logos__entel">
+                                <img src="./images/modal/" alt="">
+                            </div>
+                        </div>
+                        <div class="Cartel__top--maps">
+                            <div class="Cartel__top--letf">
+                                <img src="./images/modal/mapa-peru@2x.png" alt="" width="120">
+                            </div>
+                            <div class="Cartel__top--right">
+                                <div class="Cartel__top--right__hogar">
+                                    <div class="Cartel__top--right__hogar--cover">
+                                        <img src="./images/modal/con-hogar@2x.png" alt="" width="60">
+                                    </div>
+                                    <div class="Cartel__top--right__hogar--text">
+                                        <p>
+                                            perros
+                                        </p>
+                                        <p>
+                                            con hogar
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="Cartel__top--right__sin-hogar">
+                                    <div class="Cartel__top--right__sin-hogar--cover">
+                                        <img src="./images/modal/sin-hogar@2x.png" alt="" width="60">
+                                    </div>
+                                    <div class="Cartel__top--right__sin-hogar--text">
+                                        <p>
+                                            perros
+                                        </p>
+                                        <p>
+                                            sin hogar
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Cartel__top--letters">
+                            <p>mientras estás pensando en comprar</p>
+                            <p>muchos perros rescatados estan esperando</p>
+                            <p>por un hogar</p>
+                            <p>son perritos lindos y tienen historias que contar</p>
+                            <p>no compres. adopta.</p>
+                        </div>
+                    </div>
+                    <div class="Cartel__bottom">
+                        <div class="Cartel__uri">
+                            <p>www.wuf.pe</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <script
           src="https://code.jquery.com/jquery-2.2.4.js"
           integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
           crossorigin="anonymous"></script>
         <script>
+
             OverToImage();
+            EventModals()
 
             function OverToImage() {
                 var $images = document.querySelectorAll('.ImagenToHover');
@@ -315,7 +385,41 @@
                   $('.Perritos__item--cover--modal').css('display', 'none');
                 });
             }
-            
+
+            function EventModals() {
+                var $btnArticles = document.querySelectorAll('.btnOpenModal');
+
+                for (var i = 0; i <= $btnArticles.length - 1; i++) {
+                    var el = $btnArticles[i];
+
+                    el.addEventListener('click', modalBox)
+
+
+                }
+            }
+
+            // Event Listener de evento click
+            function modalBox() {
+                console.log('CLICK');
+                // Get the modal
+                var modal = document.getElementById('myModal');
+                var modalContent = document.getElementById('myModalContent');
+
+                modal.style.display = "block";
+
+                // Insert Content
+                // modalContent.innerHTML += 'ldasldasdlasld';
+                // modalContent.classList.add('ContentModalAbierto');
+                // classList.remove();
+
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close")[0];
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }
+            }
 
         </script>
     </body>

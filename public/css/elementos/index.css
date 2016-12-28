@@ -34,7 +34,7 @@
     bottom: 0;
     transition: .2s;
 }
-.Perritos__item--cover--modal a {
+.Perritos__item--cover--modal .btnOpenModal {
     text-align: center;
     color: white;
     text-decoration: none;
@@ -44,6 +44,9 @@
     position: relative;
     top: 94px;
     font-size: .9rem;
+    width: 100px;
+    margin: 0 auto;
+    cursor: pointer;
 }
 
 .Perritos__item--cover--image img {
