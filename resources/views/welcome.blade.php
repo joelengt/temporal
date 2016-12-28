@@ -42,7 +42,7 @@
                 <article class="Perritos__item">
                     <div class="Perritos__item--cover">
                         <div class="Perritos__item--cover--image">
-                            <img src="./images/assets/dog1-beagle.jpg" alt="">
+                            <img class="ImagenToHover" src="./images/assets/dog1-beagle.jpg" alt="">
                         </div>
                         <div class="Perritos__item--cover--modal" style="display: none;">
                             <a href="">Cómprame ya!</a>
@@ -62,7 +62,7 @@
                 <article class="Perritos__item">
                     <div class="Perritos__item--cover">
                         <div class="Perritos__item--cover--image">
-                            <img src="./images/assets/dog1-beagle.jpg" alt="">
+                            <img class="ImagenToHover" src="./images/assets/dog1-beagle.jpg" alt="">
                         </div>
                         <div class="Perritos__item--cover--modal" style="display: none;">
                             <a href="">Cómprame ya!</a>
@@ -82,7 +82,7 @@
                 <article class="Perritos__item">
                     <div class="Perritos__item--cover">
                         <div class="Perritos__item--cover--image">
-                            <img src="./images/assets/dog1-beagle.jpg" alt="">
+                            <img class="ImagenToHover" src="./images/assets/dog1-beagle.jpg" alt="">
                         </div>
                         <div class="Perritos__item--cover--modal" style="display: none;">
                             <a href="">Cómprame ya!</a>
@@ -102,7 +102,7 @@
                 <article class="Perritos__item">
                     <div class="Perritos__item--cover">
                         <div class="Perritos__item--cover--image">
-                            <img src="./images/assets/dog1-beagle.jpg" alt="">
+                            <img class="ImagenToHover" src="./images/assets/dog1-beagle.jpg" alt="">
                         </div>
                         <div class="Perritos__item--cover--modal" style="display: none;">
                             <a href="">Cómprame ya!</a>
@@ -122,7 +122,7 @@
                 <article class="Perritos__item">
                     <div class="Perritos__item--cover">
                         <div class="Perritos__item--cover--image">
-                            <img src="./images/assets/dog1-beagle.jpg" alt="">
+                            <img class="ImagenToHover" src="./images/assets/dog1-beagle.jpg" alt="">
                         </div>
                         <div class="Perritos__item--cover--modal" style="display: none;">
                             <a href="">Cómprame ya!</a>
@@ -142,7 +142,7 @@
                 <article class="Perritos__item">
                     <div class="Perritos__item--cover">
                         <div class="Perritos__item--cover--image">
-                            <img src="./images/assets/dog1-beagle.jpg" alt="">
+                            <img class="ImagenToHover" src="./images/assets/dog1-beagle.jpg" alt="">
                         </div>
                         <div class="Perritos__item--cover--modal" style="display: none;">
                             <a href="">Cómprame ya!</a>
@@ -162,7 +162,7 @@
                 <article class="Perritos__item">
                     <div class="Perritos__item--cover">
                         <div class="Perritos__item--cover--image">
-                            <img src="./images/assets/dog1-beagle.jpg" alt="">
+                            <img class="ImagenToHover" src="./images/assets/dog1-beagle.jpg" alt="">
                         </div>
                         <div class="Perritos__item--cover--modal" style="display: none;">
                             <a href="">Cómprame ya!</a>
@@ -182,7 +182,7 @@
                 <article class="Perritos__item">
                     <div class="Perritos__item--cover">
                         <div class="Perritos__item--cover--image">
-                            <img src="./images/assets/dog1-beagle.jpg" alt="">
+                            <img class="ImagenToHover" src="./images/assets/dog1-beagle.jpg" alt="">
                         </div>
                         <div class="Perritos__item--cover--modal" style="display: none;">
                             <a href="">Cómprame ya!</a>
@@ -202,7 +202,7 @@
                 <article class="Perritos__item">
                     <div class="Perritos__item--cover">
                         <div class="Perritos__item--cover--image">
-                            <img src="./images/assets/dog1-beagle.jpg" alt="">
+                            <img class="ImagenToHover" src="./images/assets/dog1-beagle.jpg" alt="">
                         </div>
                         <div class="Perritos__item--cover--modal" style="display: none;">
                             <a href="">Cómprame ya!</a>
@@ -222,7 +222,7 @@
                 <article class="Perritos__item">
                     <div class="Perritos__item--cover">
                         <div class="Perritos__item--cover--image">
-                            <img src="./images/assets/dog1-beagle.jpg" alt="">
+                            <img class="ImagenToHover" src="./images/assets/dog1-beagle.jpg" alt="">
                         </div>
                         <div class="Perritos__item--cover--modal" style="display: none;">
                             <a href="">Cómprame ya!</a>
@@ -242,7 +242,7 @@
                 <article class="Perritos__item">
                     <div class="Perritos__item--cover">
                         <div class="Perritos__item--cover--image">
-                            <img src="./images/assets/dog1-beagle.jpg" alt="">
+                            <img class="ImagenToHover" src="./images/assets/dog1-beagle.jpg" alt="">
                         </div>
                         <div class="Perritos__item--cover--modal" style="display: none;">
                             <a href="">Cómprame ya!</a>
@@ -262,7 +262,7 @@
                 <article class="Perritos__item">
                     <div class="Perritos__item--cover">
                         <div class="Perritos__item--cover--image">
-                            <img src="./images/assets/dog1-beagle.jpg" alt="">
+                            <img class="ImagenToHover" src="./images/assets/dog1-beagle.jpg" alt="">
                         </div>
                         <div class="Perritos__item--cover--modal" style="display: none;">
                             <a href="">Cómprame ya!</a>
@@ -291,5 +291,32 @@
                 </div>
             </div>
         </footer>
+        <script
+          src="https://code.jquery.com/jquery-2.2.4.js"
+          integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+          crossorigin="anonymous"></script>
+        <script>
+            OverToImage();
+
+            function OverToImage() {
+                var $images = document.querySelectorAll('.ImagenToHover');
+                var $modal = document.querySelector('.Perritos__item--cover--modal');
+
+                // Modal Hover Item event
+                $('.Perritos__item--cover').hover(function(e) {
+                    console.log(this);
+                    let $this = $(this)
+                    let $article = $this.closest('.Perritos__item--cover--modal')
+                    let $modal = $article.context.lastElementChild;
+
+                    $modal.style.display = 'block';
+
+                }, function() {
+                  $('.Perritos__item--cover--modal').css('display', 'none');
+                });
+            }
+            
+
+        </script>
     </body>
 </html>
