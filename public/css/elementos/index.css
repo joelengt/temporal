@@ -3,12 +3,12 @@
 }
 
 .Perritos__box {
-	margin: 0 auto;
-	text-align: center;
-	width: 90%;
-    margin: 0rem auto;
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    display: block;
 }
 
 .Perritos__item {
@@ -20,11 +20,11 @@
 
 /* Cover */
 .Perritos__item .Perritos__item--cover {
-	display: block;
+    display: block;
 }
 
 /*.Perritos__item--cover--image {
-	width: 50px;
+    width: 50px;
 }*/
 
 /*.Perritos__item--cover--modal {
@@ -32,7 +32,7 @@
 }*/
 
 .Perritos__item--cover--image img {
-	max-width: 100%;
+    max-width: 100%;
 }
 
 
@@ -47,47 +47,56 @@
 }
 
 .Perritos__item--info__text {
-	display: inline-block;
-	text-align: left;
-	float: left;
+    display: inline-block;
+    text-align: left;
+    float: left;
 }
 
 .Perritos__item--info__text--title {
-	color: #464646;
-	font-size: 1.2rem;
-	display: block;
-	padding-bottom: .3rem;
+    color: #464646;
+    font-size: 1.2rem;
+    display: block;
+    padding-bottom: .3rem;
 }
 
 .Perritos__item--info__text--age {
-	color: #9a9a9a;
-	font-weight: 100;
-	font-size: .8rem;
-	display: block;
-	padding-bottom: .3rem;
+    color: #9a9a9a;
+    font-weight: 100;
+    font-size: .8rem;
+    display: block;
+    padding-bottom: .3rem;
 }
 
 .Perritos__item--info__text--price {
-	color: #ff6329;
-	display: block;
-	font-weight: 500;
-	/*padding-bottom: 1rem;*/
+    color: #ff6329;
+    display: block;
+    font-weight: 500;
+    /*padding-bottom: 1rem;*/
 }
 
 .Perritos__item--info__text--price span {
-	font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 
 .Perritos__item--info__plus {
-	/*display: inline-block;
-	float: right;
-	vertical-align: bottom;*/
-	position: absolute;
+    /*display: inline-block;
+    float: right;
+    vertical-align: bottom;*/
+    position: absolute;
     bottom: 0;
     right: 0;
     margin: 1.2rem;
 }
 
 .Perritos__item--info__plus img {
-	width: 35px;
+    width: 35px;
+}
+
+@media (min-width: 700px) {
+    .Perritos__item {
+        background-color: white;
+        width: 250px;
+        display: inline-block;
+        margin: .4rem;
+    }
 }
