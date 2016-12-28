@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1rem;
+    font-family: sans-serif;
+    color: black;
+}
+
+.HeaderMain {
+    background-image: url('../../images/assets/banner_desktop.jpg');
+    background-color: #cff5fe;
+    background-repeat: no-repeat;
+}
+
+.HeaderMain__box { 
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.HeaderMain__logo {
+    margin: 0 auto;
+    text-align: center;
+    max-height: 500px;
+}
+
+/*.HeaderMain__logo--img {
+    width: 500px;
+}*/
+
+.HeaderMain__logo--img img {
+    max-width: 200px;
+}
+
+.HeaderMain__logo--text {
+    color: #c15c36;
+    /*padding-top: 1rem;*/
+    padding-bottom: 1rem;
+}
+
+.HeaderMain__logo--text p {
+    font-weight: 100;
+}
+
+.HeaderMain__logo--btn {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.HeaderMain__logo--btn a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background: #ff6329;
+    width: 30px;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    margin: 1rem auto;
+    text-align: center;
+    border-radius: 10px;
+    border-bottom: 2px solid #c1604e;
+    border-right: 2px solid #c1604e;
+    letter-spacing: 1px;
+
+}
