@@ -14,6 +14,7 @@ body {
     background-color: #cff5fe;
     background-repeat: no-repeat;
     height: 560px;
+    background-size: cover;
 }
 
 .HeaderMain__box { 
@@ -50,6 +51,7 @@ body {
     padding-top: 12rem;
     padding-bottom: 1rem;
 }
+
 .HeaderMain__logo--btn a {
     color: white;
     font-weight: bold;
@@ -64,5 +66,32 @@ body {
     border-bottom: 2px solid #c1604e;
     border-right: 2px solid #c1604e;
     letter-spacing: 1px;
+
+}
+
+@media (min-width: 700px) {
+    .HeaderMain {
+        height: 420px;
+        background-position-x: -82px;
+    }
+    
+    .HeaderMain__box { 
+        overflow: hidden;
+        padding-left: 15rem;
+    }
+
+    .HeaderMain__logo {
+        float: left;
+        padding-top: 1.2rem;
+    }
+
+    .HeaderMain__logo--btn {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .HeaderMain__logo--btn a {
+        font-size: 1.2rem;
+    }
 
 }
