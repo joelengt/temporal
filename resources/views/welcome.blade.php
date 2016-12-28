@@ -50,9 +50,229 @@
                     </div>
                     <div class="Perritos__item--info">
                         <div class="Perritos__item--info__text">
-                            <strong>Yorkshire Terrier</strong>
-                            <p>4 meses</p>
-                            <h3>Precio S/500.00</h3>
+                            <strong class="Perritos__item--info__text--title">Yorkshire Terrier</strong>
+                            <p class="Perritos__item--info__text--age">4 meses</p>
+                            <p class="Perritos__item--info__text--price"> precio <span>S/500.00</span></p>
+                        </div>
+                        <div class="Perritos__item--info__plus">
+                            <img src="./images/assets/icon_vermas@2x.png">
+                        </div>
+                    </div>
+                </article>
+                <article class="Perritos__item">
+                    <div class="Perritos__item--cover">
+                        <div class="Perritos__item--cover--image">
+                            <img src="./images/assets/dog1-beagle.jpg" alt="">
+                        </div>
+                        <div class="Perritos__item--cover--modal" style="display: none;">
+                            <a href="">Cómprame ya!</a>
+                        </div>
+                    </div>
+                    <div class="Perritos__item--info">
+                        <div class="Perritos__item--info__text">
+                            <strong class="Perritos__item--info__text--title">Yorkshire Terrier</strong>
+                            <p class="Perritos__item--info__text--age">4 meses</p>
+                            <p class="Perritos__item--info__text--price"> precio <span>S/500.00</span></p>
+                        </div>
+                        <div class="Perritos__item--info__plus">
+                            <img src="./images/assets/icon_vermas@2x.png">
+                        </div>
+                    </div>
+                </article>
+                <article class="Perritos__item">
+                    <div class="Perritos__item--cover">
+                        <div class="Perritos__item--cover--image">
+                            <img src="./images/assets/dog1-beagle.jpg" alt="">
+                        </div>
+                        <div class="Perritos__item--cover--modal" style="display: none;">
+                            <a href="">Cómprame ya!</a>
+                        </div>
+                    </div>
+                    <div class="Perritos__item--info">
+                        <div class="Perritos__item--info__text">
+                            <strong class="Perritos__item--info__text--title">Yorkshire Terrier</strong>
+                            <p class="Perritos__item--info__text--age">4 meses</p>
+                            <p class="Perritos__item--info__text--price"> precio <span>S/500.00</span></p>
+                        </div>
+                        <div class="Perritos__item--info__plus">
+                            <img src="./images/assets/icon_vermas@2x.png">
+                        </div>
+                    </div>
+                </article>
+                <article class="Perritos__item">
+                    <div class="Perritos__item--cover">
+                        <div class="Perritos__item--cover--image">
+                            <img src="./images/assets/dog1-beagle.jpg" alt="">
+                        </div>
+                        <div class="Perritos__item--cover--modal" style="display: none;">
+                            <a href="">Cómprame ya!</a>
+                        </div>
+                    </div>
+                    <div class="Perritos__item--info">
+                        <div class="Perritos__item--info__text">
+                            <strong class="Perritos__item--info__text--title">Yorkshire Terrier</strong>
+                            <p class="Perritos__item--info__text--age">4 meses</p>
+                            <p class="Perritos__item--info__text--price"> precio <span>S/500.00</span></p>
+                        </div>
+                        <div class="Perritos__item--info__plus">
+                            <img src="./images/assets/icon_vermas@2x.png">
+                        </div>
+                    </div>
+                </article>
+                <article class="Perritos__item">
+                    <div class="Perritos__item--cover">
+                        <div class="Perritos__item--cover--image">
+                            <img src="./images/assets/dog1-beagle.jpg" alt="">
+                        </div>
+                        <div class="Perritos__item--cover--modal" style="display: none;">
+                            <a href="">Cómprame ya!</a>
+                        </div>
+                    </div>
+                    <div class="Perritos__item--info">
+                        <div class="Perritos__item--info__text">
+                            <strong class="Perritos__item--info__text--title">Yorkshire Terrier</strong>
+                            <p class="Perritos__item--info__text--age">4 meses</p>
+                            <p class="Perritos__item--info__text--price"> precio <span>S/500.00</span></p>
+                        </div>
+                        <div class="Perritos__item--info__plus">
+                            <img src="./images/assets/icon_vermas@2x.png">
+                        </div>
+                    </div>
+                </article>
+                <article class="Perritos__item">
+                    <div class="Perritos__item--cover">
+                        <div class="Perritos__item--cover--image">
+                            <img src="./images/assets/dog1-beagle.jpg" alt="">
+                        </div>
+                        <div class="Perritos__item--cover--modal" style="display: none;">
+                            <a href="">Cómprame ya!</a>
+                        </div>
+                    </div>
+                    <div class="Perritos__item--info">
+                        <div class="Perritos__item--info__text">
+                            <strong class="Perritos__item--info__text--title">Yorkshire Terrier</strong>
+                            <p class="Perritos__item--info__text--age">4 meses</p>
+                            <p class="Perritos__item--info__text--price"> precio <span>S/500.00</span></p>
+                        </div>
+                        <div class="Perritos__item--info__plus">
+                            <img src="./images/assets/icon_vermas@2x.png">
+                        </div>
+                    </div>
+                </article>
+                <article class="Perritos__item">
+                    <div class="Perritos__item--cover">
+                        <div class="Perritos__item--cover--image">
+                            <img src="./images/assets/dog1-beagle.jpg" alt="">
+                        </div>
+                        <div class="Perritos__item--cover--modal" style="display: none;">
+                            <a href="">Cómprame ya!</a>
+                        </div>
+                    </div>
+                    <div class="Perritos__item--info">
+                        <div class="Perritos__item--info__text">
+                            <strong class="Perritos__item--info__text--title">Yorkshire Terrier</strong>
+                            <p class="Perritos__item--info__text--age">4 meses</p>
+                            <p class="Perritos__item--info__text--price"> precio <span>S/500.00</span></p>
+                        </div>
+                        <div class="Perritos__item--info__plus">
+                            <img src="./images/assets/icon_vermas@2x.png">
+                        </div>
+                    </div>
+                </article>
+                <article class="Perritos__item">
+                    <div class="Perritos__item--cover">
+                        <div class="Perritos__item--cover--image">
+                            <img src="./images/assets/dog1-beagle.jpg" alt="">
+                        </div>
+                        <div class="Perritos__item--cover--modal" style="display: none;">
+                            <a href="">Cómprame ya!</a>
+                        </div>
+                    </div>
+                    <div class="Perritos__item--info">
+                        <div class="Perritos__item--info__text">
+                            <strong class="Perritos__item--info__text--title">Yorkshire Terrier</strong>
+                            <p class="Perritos__item--info__text--age">4 meses</p>
+                            <p class="Perritos__item--info__text--price"> precio <span>S/500.00</span></p>
+                        </div>
+                        <div class="Perritos__item--info__plus">
+                            <img src="./images/assets/icon_vermas@2x.png">
+                        </div>
+                    </div>
+                </article>
+                <article class="Perritos__item">
+                    <div class="Perritos__item--cover">
+                        <div class="Perritos__item--cover--image">
+                            <img src="./images/assets/dog1-beagle.jpg" alt="">
+                        </div>
+                        <div class="Perritos__item--cover--modal" style="display: none;">
+                            <a href="">Cómprame ya!</a>
+                        </div>
+                    </div>
+                    <div class="Perritos__item--info">
+                        <div class="Perritos__item--info__text">
+                            <strong class="Perritos__item--info__text--title">Yorkshire Terrier</strong>
+                            <p class="Perritos__item--info__text--age">4 meses</p>
+                            <p class="Perritos__item--info__text--price"> precio <span>S/500.00</span></p>
+                        </div>
+                        <div class="Perritos__item--info__plus">
+                            <img src="./images/assets/icon_vermas@2x.png">
+                        </div>
+                    </div>
+                </article>
+                <article class="Perritos__item">
+                    <div class="Perritos__item--cover">
+                        <div class="Perritos__item--cover--image">
+                            <img src="./images/assets/dog1-beagle.jpg" alt="">
+                        </div>
+                        <div class="Perritos__item--cover--modal" style="display: none;">
+                            <a href="">Cómprame ya!</a>
+                        </div>
+                    </div>
+                    <div class="Perritos__item--info">
+                        <div class="Perritos__item--info__text">
+                            <strong class="Perritos__item--info__text--title">Yorkshire Terrier</strong>
+                            <p class="Perritos__item--info__text--age">4 meses</p>
+                            <p class="Perritos__item--info__text--price"> precio <span>S/500.00</span></p>
+                        </div>
+                        <div class="Perritos__item--info__plus">
+                            <img src="./images/assets/icon_vermas@2x.png">
+                        </div>
+                    </div>
+                </article>
+                <article class="Perritos__item">
+                    <div class="Perritos__item--cover">
+                        <div class="Perritos__item--cover--image">
+                            <img src="./images/assets/dog1-beagle.jpg" alt="">
+                        </div>
+                        <div class="Perritos__item--cover--modal" style="display: none;">
+                            <a href="">Cómprame ya!</a>
+                        </div>
+                    </div>
+                    <div class="Perritos__item--info">
+                        <div class="Perritos__item--info__text">
+                            <strong class="Perritos__item--info__text--title">Yorkshire Terrier</strong>
+                            <p class="Perritos__item--info__text--age">4 meses</p>
+                            <p class="Perritos__item--info__text--price"> precio <span>S/500.00</span></p>
+                        </div>
+                        <div class="Perritos__item--info__plus">
+                            <img src="./images/assets/icon_vermas@2x.png">
+                        </div>
+                    </div>
+                </article>
+                <article class="Perritos__item">
+                    <div class="Perritos__item--cover">
+                        <div class="Perritos__item--cover--image">
+                            <img src="./images/assets/dog1-beagle.jpg" alt="">
+                        </div>
+                        <div class="Perritos__item--cover--modal" style="display: none;">
+                            <a href="">Cómprame ya!</a>
+                        </div>
+                    </div>
+                    <div class="Perritos__item--info">
+                        <div class="Perritos__item--info__text">
+                            <strong class="Perritos__item--info__text--title">Yorkshire Terrier</strong>
+                            <p class="Perritos__item--info__text--age">4 meses</p>
+                            <p class="Perritos__item--info__text--price"> precio <span>S/500.00</span></p>
                         </div>
                         <div class="Perritos__item--info__plus">
                             <img src="./images/assets/icon_vermas@2x.png">
