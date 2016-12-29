@@ -128,11 +128,12 @@
     text-align: center;
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
-    font-size: 9px;
+    /*font-size: 9px;*/
 }
 
 .Cartel__top--letters-1 {
     padding-bottom: .5rem;
+    font-weight: bold;
 }
 
 .Cartel__top--letters-2 {
@@ -143,6 +144,7 @@
 .Cartel__top--letters-3 {
     font-size: 1.7rem;
     padding-bottom: .2rem;
+    font-weight: bold;
 }
 
 .Cartel__top--letters-4 {
@@ -152,6 +154,7 @@
 
 .Cartel__top--letters-5 {
     font-size: 1.3rem;
+    font-weight: bold;
 }
 
 .Cartel__top--letters__textAdopta {
@@ -177,6 +180,39 @@
     border-radius: 10px;
     font-size: .9rem;
     cursor: pointer;
+}
+
+
+/* Cartel Desktop */
+.Cartel__topDesktop {
+    display: none;
+    background: #252424;
+    background-image: url('../../../images/assets/bg-popup @2x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem 0;
+}
+
+.Cartel__topDesktop--box {
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+.Cartel__topDesktop--left {
+    display: inline-block;
+    width: 36%;
+    vertical-align: middle;
+}
+
+.Cartel__topDesktop--left img {
+    max-width: 100%;
+}
+
+.Cartel__topDesktop--right {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
 }
 
 /* Texto del Modal (Image Text) */
@@ -237,5 +273,71 @@
 @media only screen and (max-width: 700px){
     .modal-content {
         width: 100%;
+    }
+}
+
+@media (min-width: 700px) {
+    .Cartel__top {
+        display: none;
+    }
+    .Cartel__topDesktop {
+        display: block;
+    }
+    .ContentModalAbierto {
+        max-width: 600px;
+    }
+    
+    /* Block right */
+    .Cartel__topDesktop--right {
+        padding-left: 2rem;
+    }
+
+    /* Logos */
+    .Cartel__top--logos {
+        text-align: left;
+    }
+
+    /* Dog Icons */
+    .Cartel__top--right {
+        width: 77%;
+        border-bottom: 1px solid rgb(219, 159, 48);
+        padding-bottom: 1rem;
+        text-align: left;
+        display: block;
+    }
+
+    .Cartel__top--right__hogar {
+       display: inline-block;
+       padding-bottom: 0;
+       padding-right: 1rem;
+    }
+
+    .Cartel__top--letters {
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .Cartel__top--letters-1 {
+        font-weight: bold;
+        font-size: .7rem;
+    }
+    
+    .Cartel__top--letters-2 {
+        font-size: .6rem;
+    }
+
+    .Cartel__top--letters-3 {
+        font-size: 1.8rem;
+        color: #ff6329;
+        font-weight: bold;
+    }
+
+    .Cartel__top--letters-4 {
+        font-size: .6rem;
+    }
+
+    .Cartel__top--letters-5 {
+        font-size: 1.3rem;
+        font-weight: bold;
     }
 }
