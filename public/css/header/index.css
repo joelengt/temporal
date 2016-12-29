@@ -1,3 +1,33 @@
+/* Fonts */
+
+@font-face {
+    font-family: "Open Sans Regular";
+    src: url('../../../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Open Sans Bold";
+    src: url('../../../fonts/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Open Sans Light";
+    src: url('../../../fonts/OpenSans-Light.ttf');
+}
+
+@font-face {
+    font-family: "Open Sans SemiBold";
+    src: url('../../../fonts/OpenSans-Semibold.ttf');
+}
+
+@font-face {
+    font-family: "Open Sans BoldItalic";
+    src: url('../../../fonts/OpenSans-BoldItalic.ttf');
+}
+
+ /*url('OpenSans-BoldItalic.ttf'), url('OpenSans-Light.ttf'), url('OpenSans-Regular.ttf'), url('OpenSans-Semibold.ttf')*/
+
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +37,7 @@ body {
     font-size: 1rem;
     font-family: sans-serif;
     color: black;
+    font-family: "Open Sans Regular", sans-serif;
 }
 
 .HeaderMain {
@@ -48,6 +79,7 @@ body {
 
 .HeaderMain__logo--text p {
     font-weight: 100;
+    font-family: "Open Sans Light", sans-serif;
 }
 
 .HeaderMain__logo--btn {
@@ -57,7 +89,7 @@ body {
 
 .HeaderMain__logo--btn a {
     color: white;
-    font-weight: bold;
+    /*font-weight: bold;*/
     text-decoration: none;
     background: #ff6329;
     width: 30px;
@@ -66,11 +98,9 @@ body {
     margin: 1rem auto;
     text-align: center;
     border-radius: 5px;
-    /*border-bottom: 1px solid #91371E;
-    border-right: 1px solid #91371E;*/
-    letter-spacing: 1px;
+    /*letter-spacing: 1px;*/
     box-shadow: 1px 1px 0px 0px #91371E;
-
+    font-family: "Open Sans Bold", sans-serif;
 }
 
 @media (min-width: 430px) {

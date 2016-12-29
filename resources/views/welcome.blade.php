@@ -402,8 +402,8 @@
                                 </div>
                                 <div class="Cartel__top--letters">
                                     <p class="Cartel__top--letters-1">mientras estás pensando en comprar,</p>
-                                    <p class="Cartel__top--letters-2">muchos perros rescatados están esperando</p>
-                                    <p class="Cartel__top--letters-3">por un hogar</p>
+                                    <p class="Cartel__top--letters-2">muchos perros rescatados</p>
+                                    <p class="Cartel__top--letters-3">buscan hogar</p>
                                     <p class="Cartel__top--letters-4">son perritos lindos y tienen historias que contar.</p>
                                     <p class="Cartel__top--letters-5">no compres. <span class="Cartel__top--letters__textAdopta">adopta.</span></p>
                                 </div>

@@ -76,6 +76,7 @@
     font-size: 1.2rem;
     display: block;
     padding-bottom: .3rem;
+    font-family: "Open Sans SemiBold", sans-serif;
 }
 
 .Perritos__item--info__text--age {
@@ -84,6 +85,7 @@
     font-size: .8rem;
     display: block;
     padding-bottom: .3rem;
+    font-family: "Open Sans Light", sans-serif;
 }
 
 .Perritos__item--info__text--price {
@@ -95,6 +97,7 @@
 
 .Perritos__item--info__text--price span {
     font-size: 1.2rem;
+    font-family: "Open Sans SemiBold", sans-serif;
 }
 
 .Perritos__item--info__plus {
