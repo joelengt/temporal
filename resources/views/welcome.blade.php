@@ -461,11 +461,6 @@
 
                 modal.style.display = "block";
 
-                // Insert Content
-                // modalContent.innerHTML += 'ldasldasdlasld';
-                // modalContent.classList.add('ContentModalAbierto');
-                // classList.remove();
-
                 // Get the <span> element that closes the modal
                 var span = document.getElementsByClassName("close")[0];
 
