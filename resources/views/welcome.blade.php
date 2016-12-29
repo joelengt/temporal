@@ -303,20 +303,20 @@
                     <div class="Cartel__top">
                         <div class="Cartel__top--logos">
                             <div class="Cartel__top--logos__wuf">
-                                <img src="./images/modal/" alt="">
+                                <img src="./images/assets/logo-wuf@2x.png" alt="">
                             </div>
                             <div class="Cartel__top--logos__entel">
-                                <img src="./images/modal/" alt="">
+                                <img src="./images/assets/logo-entel@2x.png" alt="">
                             </div>
                         </div>
                         <div class="Cartel__top--maps">
                             <div class="Cartel__top--letf">
-                                <img src="./images/modal/mapa-peru@2x.png" alt="" width="120">
+                                <img src="./images/modal/mapa-peru@2x.png">
                             </div>
                             <div class="Cartel__top--right">
                                 <div class="Cartel__top--right__hogar">
                                     <div class="Cartel__top--right__hogar--cover">
-                                        <img src="./images/modal/con-hogar@2x.png" alt="" width="60">
+                                        <img src="./images/modal/con-hogar@2x.png">
                                     </div>
                                     <div class="Cartel__top--right__hogar--text">
                                         <p>
@@ -327,11 +327,11 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="Cartel__top--right__sin-hogar">
-                                    <div class="Cartel__top--right__sin-hogar--cover">
-                                        <img src="./images/modal/sin-hogar@2x.png" alt="" width="60">
+                                <div class="Cartel__top--right__hogar">
+                                    <div class="Cartel__top--right__hogar--cover">
+                                        <img src="./images/modal/sin-hogar@2x.png">
                                     </div>
-                                    <div class="Cartel__top--right__sin-hogar--text">
+                                    <div class="Cartel__top--right__hogar--text">
                                         <p>
                                             perros
                                         </p>
@@ -343,11 +343,11 @@
                             </div>
                         </div>
                         <div class="Cartel__top--letters">
-                            <p>mientras estás pensando en comprar</p>
-                            <p>muchos perros rescatados estan esperando</p>
-                            <p>por un hogar</p>
-                            <p>son perritos lindos y tienen historias que contar</p>
-                            <p>no compres. adopta.</p>
+                            <p class="Cartel__top--letters-1">mientras estás pensando en comprar,</p>
+                            <p class="Cartel__top--letters-2">muchos perros rescatados están esperando</p>
+                            <p class="Cartel__top--letters-3">por un hogar</p>
+                            <p class="Cartel__top--letters-4">son perritos lindos y tienen historias que contar.</p>
+                            <p class="Cartel__top--letters-5">no compres. <span class="Cartel__top--letters__textAdopta">adopta.</span></p>
                         </div>
                     </div>
                     <div class="Cartel__bottom">
