@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +7,9 @@
 
         <title>Perritos Lindos</title>
         
+        <!-- favicon  -->
+        <link rel="icon" type="image/png" href="./images/assets/logo_cabecera.png">
+
         <!-- Facebook  -->
         <meta property="og:title" content="Perritos Lindos">
         <meta property="og:description" content="Compra los mejores perros de raza">
