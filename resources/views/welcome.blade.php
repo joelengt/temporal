@@ -408,7 +408,7 @@
                         </div>
                     </div>
                     <div class="Cartel__bottom">
-                        <div class="Cartel__uri">
+                        <div class="Cartel__uri" id="btnGoToWuf">
                             <p>www.wuf.pe</p>
                         </div>
                     </div>
@@ -424,6 +424,7 @@
             OverToImage();
             EventModals();
             goTopPage();
+            goToWuf()
 
             function OverToImage() {
                 var $images = document.querySelectorAll('.ImagenToHover');
@@ -479,6 +480,14 @@
                 $btnArrowTop.addEventListener('click', function () {
                     $('html, body').animate({scrollTop : 0},800);
                     return false;
+                })
+            }
+
+            function goToWuf() {
+                var $btnGoToWuf = document.querySelector('#btnGoToWuf');
+
+                $btnGoToWuf.addEventListener('click', function () {
+                    window.open("http://www.wuf.pe/","_blank")
                 })
             }
 
