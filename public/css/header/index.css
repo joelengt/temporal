@@ -10,11 +10,14 @@ body {
 }
 
 .HeaderMain {
-    background-image: url('../../images/assets/banner_desktop.jpg');
+    background-image: url('../../images/assets/bg-rd@2x.png');
     background-color: #cff5fe;
     background-repeat: no-repeat;
-    height: 560px;
+    /*height: 560px;*/
+    height: 620px;
     background-size: cover;
+    /*background-position-y: -130px;*/
+    background-position-y: -86px;
 }
 
 .HeaderMain__box { 
@@ -48,7 +51,7 @@ body {
 }
 
 .HeaderMain__logo--btn {
-    padding-top: 12rem;
+    padding-top: 16rem;
     padding-bottom: 1rem;
 }
 
@@ -73,6 +76,7 @@ body {
     .HeaderMain {
         height: 421px;
         background-image: url('../../images/assets/banner_desktop.png');
+        background-position-y: 0px;
         overflow: hidden;
     }
     
