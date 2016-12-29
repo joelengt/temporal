@@ -1,5 +1,5 @@
 .Perritos {
-    background: #DDDFDC;
+    background: #D9DCDB;
     overflow: hidden;
 }
 
@@ -72,14 +72,14 @@
 }
 
 .Perritos__item--info__text--title {
-    color: #464646;
+    color: #333333;
     font-size: 1.2rem;
     display: block;
     padding-bottom: .3rem;
 }
 
 .Perritos__item--info__text--age {
-    color: #9a9a9a;
+    color: #606060;
     font-weight: 100;
     font-size: .8rem;
     display: block;
