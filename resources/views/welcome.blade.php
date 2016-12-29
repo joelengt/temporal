@@ -431,7 +431,6 @@
 
                 // Modal Hover Item event
                 $('.Perritos__item--cover').hover(function(e) {
-                    console.log(this);
                     let $this = $(this)
                     let $article = $this.closest('.Perritos__item--cover--modal')
                     let $modal = $article.context.lastElementChild;
@@ -457,7 +456,6 @@
 
             // Event Listener de evento click
             function modalBox() {
-                console.log('CLICK');
                 // Get the modal
                 var modal = document.getElementById('myModal');
                 var modalContent = document.getElementById('myModalContent');
@@ -479,7 +477,6 @@
 
                 // btn go Top Event
                 $btnArrowTop.addEventListener('click', function () {
-                    console.log('Go top');
                     $('html, body').animate({scrollTop : 0},800);
                     return false;
                 })
