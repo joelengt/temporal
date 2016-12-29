@@ -16,7 +16,7 @@ body {
     /*height: 560px;*/
     height: 620px;
     background-size: cover;
-    /*background-position-y: -130px;*/
+    background-position-y: 0px;
     
 }
 
@@ -72,23 +72,30 @@ body {
 
 }
 
-/*@media (min-width: 470px) {
+@media (min-width: 430px) {
     .HeaderMain {
-        background-position-y: -231px;
+        background-position-y: -76px;
+    }
+}
+
+@media (min-width: 470px) {
+    .HeaderMain {
+        background-position-y: -213px;
     }
 }
 
 @media (min-width: 570px) {
     .HeaderMain {
-        background-position-y: -437px;
+        background-position-y: -388px;
     }
-}*/
+}
 
 @media (min-width: 700px) {
     .HeaderMain {
         height: 421px;
         background-image: url('../../images/assets/banner_desktop.png');
         overflow: hidden;
+        background-position-y: 0px;
     }
     
     .HeaderMain__box { 
