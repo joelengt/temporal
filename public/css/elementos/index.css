@@ -111,10 +111,26 @@
 }
 
 @media (min-width: 700px) {
+    .Perritos__box {
+        width: 100%;
+    }
+
     .Perritos__item {
         background-color: white;
-        width: 250px;
+        width: 295px;
         display: inline-block;
         margin: .4rem;
+    }
+    
+    .Perritos__item--info__text--title {
+        font-size: 1rem;
+    }
+
+    .Perritos__item--info__plus {
+        margin: 1.5rem;
+    }
+
+    .Perritos__item--info__plus img {
+        width: 20px;
     }
 }

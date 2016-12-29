@@ -72,7 +72,7 @@ body {
 @media (min-width: 700px) {
     .HeaderMain {
         height: 421px;
-        background-position-x: -82px;
+        /*background-position-x: -82px;*/
         overflow: hidden;
     }
     
