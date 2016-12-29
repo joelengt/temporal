@@ -258,8 +258,24 @@
     right: 35px;
     color: #f1f1f1;
     font-size: 50px;
-    font-weight: bold;
+    font-weight: 100;
     transition: 0.3s;
+    background: #ff6329;
+    width: 70px;
+    height: 28px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.close::after {
+    content: 'X';
+    background: #ff6329;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    left: 61px;
+    position: absolute;
+    top: -7px;
 }
 
 .close:hover,
