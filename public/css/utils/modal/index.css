@@ -265,6 +265,7 @@
     height: 28px;
     font-size: 1rem;
     text-align: center;
+    line-height: 25px;
 }
 
 .close::after {
@@ -276,6 +277,9 @@
     left: 61px;
     position: absolute;
     top: -7px;
+    line-height: 38px;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .close:hover,
