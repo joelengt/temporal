@@ -282,7 +282,7 @@
                     </div>
                 </article>
             </div>
-            <div class="Perritos__GoTop">
+            <div class="Perritos__GoTop" id="btnGoTop">
                 <img src="./images/assets/icon_arriba@2x.png" width="30">
             </div>
         </section>
@@ -415,7 +415,6 @@
                 </div>
             </div>
         </div>
-
         <script
           src="https://code.jquery.com/jquery-2.2.4.js"
           integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
@@ -423,7 +422,8 @@
         <script>
 
             OverToImage();
-            EventModals()
+            EventModals();
+            goTopPage();
 
             function OverToImage() {
                 var $images = document.querySelectorAll('.ImagenToHover');
@@ -471,6 +471,18 @@
                 span.onclick = function() {
                     modal.style.display = "none";
                 }
+            }
+
+            // Button go Top
+            function goTopPage() {
+                var $btnArrowTop = document.querySelector('#btnGoTop');
+
+                // btn go Top Event
+                $btnArrowTop.addEventListener('click', function () {
+                    console.log('Go top');
+                    $('html, body').animate({scrollTop : 0},800);
+                    return false;
+                })
             }
 
         </script>
