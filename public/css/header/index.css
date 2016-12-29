@@ -25,6 +25,11 @@
     src: url('../../../fonts/OpenSans-BoldItalic.ttf');
 }
 
+@font-face {
+    font-family: "Font Bolita";
+    src: url('../../../fonts/ARLRDBD.ttf');
+}
+
  /*url('OpenSans-BoldItalic.ttf'), url('OpenSans-Light.ttf'), url('OpenSans-Regular.ttf'), url('OpenSans-Semibold.ttf')*/
 
 
