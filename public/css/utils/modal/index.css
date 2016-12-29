@@ -24,6 +24,7 @@
     max-width: 500px;
     margin: 1.5rem auto;
     padding: 1rem;
+    position: relative;
 }
 
 .Cartel__box {
@@ -254,8 +255,8 @@
 /* Boton de cerrar */
 .close {
     position: absolute;
-    top: 15px;
-    right: 35px;
+    top: 5px;
+    right: 37px;
     color: #f1f1f1;
     font-size: 50px;
     font-weight: 100;

@@ -296,11 +296,11 @@
 
         <!-- The Modal -->
         <div id="myModal" class="modal">
-            <!-- The Close Button -->
-            <span class="close" onclick="document.getElementById('myModal').style.display='none'">
-                cerrar
-            </span>
             <div id="myModalContent" class="ContentModalAbierto">
+                <!-- The Close Button -->
+                <span class="close" onclick="document.getElementById('myModal').style.display='none'">
+                    cerrar
+                </span>
                 <div class="Cartel__box">
                     <div class="Cartel__top">
                         <div class="Cartel__top--logos">
