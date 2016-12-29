@@ -72,6 +72,18 @@ body {
 
 }
 
+@media (min-width: 470px) {
+    .HeaderMain {
+        background-position-y: -231px;
+    }
+}
+
+@media (min-width: 570px) {
+    .HeaderMain {
+        background-position-y: -437px;
+    }
+}
+
 @media (min-width: 700px) {
     .HeaderMain {
         height: 421px;
