@@ -17,7 +17,7 @@ body {
     height: 620px;
     background-size: cover;
     /*background-position-y: -130px;*/
-    background-position-y: -86px;
+    
 }
 
 .HeaderMain__box { 
@@ -51,7 +51,7 @@ body {
 }
 
 .HeaderMain__logo--btn {
-    padding-top: 16rem;
+    padding-top: 17rem;
     padding-bottom: 1rem;
 }
 
@@ -72,7 +72,7 @@ body {
 
 }
 
-@media (min-width: 470px) {
+/*@media (min-width: 470px) {
     .HeaderMain {
         background-position-y: -231px;
     }
@@ -82,13 +82,12 @@ body {
     .HeaderMain {
         background-position-y: -437px;
     }
-}
+}*/
 
 @media (min-width: 700px) {
     .HeaderMain {
         height: 421px;
         background-image: url('../../images/assets/banner_desktop.png');
-        background-position-y: 0px;
         overflow: hidden;
     }
     
