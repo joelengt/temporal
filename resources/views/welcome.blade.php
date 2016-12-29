@@ -10,7 +10,7 @@
         <!-- Facebook  -->
         <meta property="og:title" content="Perritos Lindos">
         <meta property="og:description" content="Compra los mejores perros de raza">
-        <meta property="og:image" content="http://perritoslindos.pe/images/facebook/Cover.png">
+        <meta property="og:image" content="http://perritoslindos.pe/images/assets/banner_desktop.png">
         <meta property="og:url" content="http://perritoslindos.pe">
 
         <!-- Fonts -->
