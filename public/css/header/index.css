@@ -41,7 +41,7 @@ body {
 }
 
 .HeaderMain__logo--text {
-    color: #c15c36;
+    color: #80351B;
     /*padding-top: 1rem;*/
     padding-bottom: 1rem;
 }
@@ -66,9 +66,10 @@ body {
     margin: 1rem auto;
     text-align: center;
     border-radius: 5px;
-    border-bottom: 2px solid #c1604e;
-    border-right: 2px solid #c1604e;
+    /*border-bottom: 1px solid #91371E;
+    border-right: 1px solid #91371E;*/
     letter-spacing: 1px;
+    box-shadow: 1px 1px 0px 0px #91371E;
 
 }
 
