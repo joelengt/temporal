@@ -282,7 +282,10 @@
                     </div>
                 </article>
             </div>
-        </section> 
+            <div class="Perritos__GoTop">
+                <img src="./images/assets/icon_arriba@2x.png" width="30">
+            </div>
+        </section>
         <footer class="FooterMain">
             <div class="FooterMain__box">
                 <div class="FooterMain__logo">

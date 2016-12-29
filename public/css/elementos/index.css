@@ -1,5 +1,6 @@
 .Perritos {
     background: #DDDFDC;
+    overflow: hidden;
 }
 
 .Perritos__box {
@@ -108,6 +109,14 @@
 
 .Perritos__item--info__plus img {
     width: 35px;
+}
+
+.Perritos__GoTop {
+    float: right;
+    margin-right: 4rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    cursor: pointer;
 }
 
 @media (min-width: 700px) {
