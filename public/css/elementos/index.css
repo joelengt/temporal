@@ -120,6 +120,7 @@
         width: 295px;
         display: inline-block;
         margin: .4rem;
+        margin-bottom: 1rem;
     }
     
     .Perritos__item--info__text--title {
